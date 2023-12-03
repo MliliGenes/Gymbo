@@ -28,14 +28,10 @@
 /* fonts */
 :root {
   --font-large: "Comfortaa", sans-serif;
-  --font-large: "Nunito", sans-serif;
-  --font-large: "Signika", sans-serif;
-}
-
-/* fonts-sizes */
-:root {
-  --large-font-size: 2rem; /* Equivalent to 32px assuming the base font size is 16px */
-  --medium-font-size: 1.5rem; /* Equivalent to 24px */
-  --regular-font-size: 1rem; /* Equivalent to 16px */
-  --small-font-size: 0.875rem; /* Equivalent to 14px */
+  --font-medium: "Nunito", sans-serif;
+  --font-small: "Signika", sans-serif;
+  --large-font-size: 2rem;
+  --medium-font-size: 1.5rem;
+  --regular-font-size: 1rem;
+  --small-font-size: 0.875rem;
 }
