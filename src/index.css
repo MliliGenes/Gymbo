@@ -1,68 +1,41 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
+/* init */
+*,
+*::after,
+*::before {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+/* light theme */
+:root[data-theme="light"] {
+  --text: #070808;
+  --background: #fcfdfd;
+  --primary: #5faeaf;
+  --secondary: #98d9da;
+  --accent: #6ddadc;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+/* dark theme */
+:root[data-theme="dark"] {
+  --text: #f7f8f8;
+  --background: #020303;
+  --primary: #509e9f;
+  --secondary: #246465;
+  --accent: #238e90;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+/* fonts */
+:root {
+  --font-large: "Comfortaa", sans-serif;
+  --font-large: "Nunito", sans-serif;
+  --font-large: "Signika", sans-serif;
+}
+
+/* fonts-sizes */
+:root {
+  --large-font-size: 2rem; /* Equivalent to 32px assuming the base font size is 16px */
+  --medium-font-size: 1.5rem; /* Equivalent to 24px */
+  --regular-font-size: 1rem; /* Equivalent to 16px */
+  --small-font-size: 0.875rem; /* Equivalent to 14px */
 }
