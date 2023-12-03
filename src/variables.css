@@ -1,0 +1,44 @@
+/* variables.css */
+
+/* Reset styles */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Light theme */
+/* :root[data-theme="light"] {
+  --text: #070808;
+  --background: #fcfdfd;
+  --primary: #5faeaf;
+  --secondary: #98d9da;
+  --accent: #6ddadc;
+} */
+
+/* Dark theme */
+/* :root[data-theme="dark"] {
+  --text: #f7f8f8;
+  --background: #020303;
+  --primary: #509e9f;
+  --secondary: #246465;
+  --accent: #238e90;
+} */
+
+/* Fonts and font sizes */
+:root {
+  --text: #070808;
+  --background: #fcfdfd;
+  --primary: #5faeaf;
+  --secondary: #98d9da;
+  --accent: #6ddadc;
+  --font-large: "Comfortaa", sans-serif;
+  --font-medium: "Nunito", sans-serif;
+  --font-small: "Signika", sans-serif;
+  --large-font-size: 24px;
+  --medium-font-size: 18px;
+  --regular-font-size: 16px;
+  --small-font-size: 14px;
+}

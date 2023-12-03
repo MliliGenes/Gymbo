@@ -1,3 +1,20 @@
+div {
+  background-color: var(--background);
+}
 h1 {
   font-size: var(--large-font-size);
+  font-family: var(--font-large);
+  color: var(--primary);
+}
+
+h4 {
+  font-size: var(--medium-font-size);
+  font-family: var(--font-medium);
+  color: var(--secondary);
+}
+
+p {
+  font-family: var(--font-small);
+  font-size: var(--regular-font-size);
+  color: var(--text);
 }
