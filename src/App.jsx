@@ -28,8 +28,11 @@ function App() {
 
       <h3>instructions: </h3>
       <ol>
-        {exe.instructions.map((instruction) => (
-          <li>{instruction}</li>
+        {exe.instructions.map((instruction, index) => (
+          <li>
+            <span>{index + 1}</span>
+            <p>{instruction}</p>
+          </li>
         ))}
       </ol>
     </div>
