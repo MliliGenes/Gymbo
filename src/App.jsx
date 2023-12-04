@@ -1,11 +1,11 @@
 import { useSelector } from "react-redux";
-import "./App.css";
+import "./styles/App.css";
 
 // testing the store
 function App() {
-  const data = useSelector((state) => state.data);
+  const workouts = useSelector((state) => state.workouts);
 
-  const elements = data.map((exe, index) => (
+  const elements = workouts.map((exe, index) => (
     <div className="card">
       <h1>
         {index + 1} - {exe.name}
