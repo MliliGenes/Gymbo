@@ -14,14 +14,18 @@ function App() {
       {exe.force !== null && <h2>force: {exe.force}</h2>}
 
       {/* <h3>{exe.level}</h3> */}
-      <h3>primaryMuscles: </h3>
-      {exe.primaryMuscles.length > 0 ? (
-        <ul className="muscles">
-          {exe.primaryMuscles.map((muscle) => (
-            <li>{muscle}</li>
+      <h3>Muscles: </h3>
+      <div className="muscles">
+        {exe.primaryMuscles.length > 0 &&
+          exe.primaryMuscles.map((muscle) => (
+            <div className="muscle">{muscle}</div>
           ))}
-        </ul>
-      ) : undefined}
+        {exe.secondaryMuscles.length > 0 &&
+          exe.secondaryMuscles.map((muscle) => (
+            <div className="muscle">{muscle}</div>
+          ))}
+      </div>
+
       <h3>instructions: </h3>
       <ol>
         {exe.instructions.map((instruction) => (
