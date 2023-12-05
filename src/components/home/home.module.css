@@ -1,0 +1,48 @@
+.home {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--background);
+}
+
+.navbar {
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 18px;
+}
+
+.logo {
+  width: 100px;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.link {
+  appearance: none;
+  text-decoration: none;
+  color: var(--text);
+  font-size: var(--regular-font-size);
+  font-family: var(--font-medium);
+}
+
+.active {
+  color: var(--accent);
+}
+
+.btn {
+  font-weight: 500;
+  appearance: none;
+  font-family: var(--font-medium);
+  font-size: var(--medium-font-size);
+  text-transform: capitalize;
+  padding: 8px 18px;
+  border: 0;
+  background-color: var(--secondary);
+  color: var(--text);
+  border-radius: 10px;
+}
