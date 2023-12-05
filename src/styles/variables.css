@@ -10,34 +10,34 @@
 }
 
 /* Light theme */
-/* :root[data-theme="light"] {
-  --text: #070808;
-  --background: #fcfdfd;
-  --primary: #5faeaf;
-  --secondary: #98d9da;
-  --accent: #6ddadc;
-} */
+:root[data-theme="light"] {
+  --text: #061113;
+  --background: #f0f8fa;
+  --primary: #266173;
+  --secondary: #7e96d3;
+  --accent: #3d50b8;
+}
 
 /* Dark theme */
-/* :root[data-theme="dark"] {
-  --text: #f7f8f8;
-  --background: #020303;
-  --primary: #509e9f;
-  --secondary: #246465;
-  --accent: #238e90;
-} */
+:root[data-theme="dark"] {
+  --text: #eaf6f8;
+  --background: #050d0f;
+  --primary: #8ec8d9;
+  --secondary: #2c4582;
+  --accent: #4659c1;
+}
 
 /* Fonts and font sizes */
 :root {
-  --text: #070808;
-  --background: #fcfdfd;
-  --primary: #5faeaf;
-  --secondary: #98d9da;
-  --accent: #6ddadc;
-  --font-large: "Comfortaa", sans-serif;
-  --font-medium: "Nunito", sans-serif;
-  --font-small: "Signika", sans-serif;
-  --large-font-size: 24px;
+  --text: #eaf6f8;
+  --background: #050d0f;
+  --primary: #8ec8d9;
+  --secondary: #2c4582;
+  --accent: #4659c1;
+  --font-large: "Montserrat", sans-serif;
+  --font-medium: "Athiti", sans-serif;
+  --font-small: "Nunito", sans-serif;
+  --large-font-size: 50px;
   --medium-font-size: 18px;
   --regular-font-size: 16px;
   --small-font-size: 14px;

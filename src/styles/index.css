@@ -1,5 +1,7 @@
 /* index.css */
 
 @import "./variables.css";
-
+* {
+  /* outline: red 1px solid; */
+}
 /* Rest of your styles */
