@@ -65,10 +65,10 @@
   font-family: var(--font-small);
   font-size: var(--medium-font-size);
   text-transform: capitalize;
-  padding: 8px 15px;
+  padding: 8px 20px;
   border: 0;
   background-color: var(--accent);
-  color: var(--background);
+  color: var(--text);
   border-radius: 10px;
   cursor: pointer;
   box-shadow: 0 0 0px var(--secondary);
